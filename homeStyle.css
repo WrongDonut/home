@@ -1,0 +1,77 @@
+body{
+	background-color:rgb(0,0,0);
+	background-image:url(Assets/HomePageBG.jpg);
+	font-family:Courier New, monospace;
+	color:rgb(0,191,255);
+	size:1.5em;
+	padding:0px;
+}
+.head{
+	width:15px;
+	height:15px;
+	border:none;
+	border-radius:100%;
+	box-shadow:none;
+	margin:0px;
+}
+.head:hover{
+	border:none;
+	box-shadow:none;
+}
+.link{
+	margin:15px;
+	width:40px;
+	height:40px;
+	border:2px solid rgb(255,255,255);
+	border-radius:8px;
+	box-shadow:0 0 20px rgb(0,191,255);
+	background-color:rgb(255,255,255);
+}
+.link:hover{
+	border:2px solid rgb(211,212,211);
+	box-shadow:0 0 20px rgb(51,255,51);
+	background-color:rgb(211,212,211);
+}
+#content{
+	width:85%;
+	max-width:1300px;
+	min-width:750px;
+	min-height:600px;
+	margin:auto;
+	padding:2%;
+	background-color:rgb(51,51,51);
+	box-shadow:inset 0px 0px 30px 0px rgb(0,0,0);
+}
+#links{
+	display:inline;
+	float:right;
+	border-bottom:5px solid rgba(0,0,0,.6);
+	border-radius:0 0 0 30px;
+	padding-left:15px;
+}
+#input{
+	float:right;
+}
+#Full{
+	width:auto;
+	height:auto;
+	background-color:none;
+	border:none;
+	border-radius:0px 20px 0px 20px;
+	box-shadow:inset 0px 0px 8px black;
+}
+#undetermined{
+	display:none;
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	font-weight:normal;
+	
+}
+h1 div a{
+	color:rgb(0,191,255);
+}
+a:hover{
+	color:rgb(255,255,255);
+}
